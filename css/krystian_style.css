@@ -1,0 +1,41 @@
+/*@media only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 568px) {*/
+    /*.col-sm-6 {*/
+        /*float: left;*/
+        /*width: 50%;*/
+    /*}*/
+/*}*/
+
+/*@media only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 568px) {*/
+    /*.col-xs-6 {*/
+        /*float: left;*/
+        /*width: 50%;*/
+    /*}*/
+/*}*/
+
+.settings {
+    background: url("/img/iOS+Settings+icon.png");
+}
+
+.homescreen-style {
+    background: #000 url("../img/home_background.jpg") no-repeat right top!important;
+}
+
+.center-image img {
+    display: block;
+    margin: auto;
+}
+
+.info {
+    color: white!important;
+    background-color: #aaa;
+    border-radius: 5px;
+}
+
+.big_button_footer_style {
+    background-color: black;
+    border: none!important;
+}
+
+.big_buttons {
+    margin-top: 20vh;
+}
