@@ -23,7 +23,7 @@
 
 </head>
 
-<body style="background: #000 url('img/home_background.jpg') no-repeat right top!important">
+<body class="homescreen_camo_style" style="background: #000 url('img/home_background.jpg') no-repeat right top!important">
 
 
 <div class="container">
@@ -33,12 +33,12 @@
     <div class="row">
         <div class="col-xs-3 col-sm-12 col-md-12 col-lg-12"><div><a href="call_transit_police.html"><img src="img/icon_photos/police.png" width="50px" /></a>Police</div></div>
         <div class="col-xs-3 col-sm-12 col-md-12 col-lg-12"><div><a href="sound_alarm.html"><img src="img/icon_photos/alarm.png" width="50px" /></a>Alarm</div></div>
-        <div class="col-xs-3 col-sm-12 col-md-12 col-lg-12"><div><a href=""><img src="img/icon_photos/alert-neighbors.png" width="50px" /></a>Alert</div></div>
+        <div class="col-xs-3 col-sm-12 col-md-12 col-lg-12"><div><a href="" data-toggle="modal" data-target="#alertModal" onclick="$('#alertModal').modal('toggle');"><img src="img/icon_photos/alert-neighbors.png" width="50px" /></a>Alert</div></div>
         <div class="col-xs-3 col-sm-12 col-md-12 col-lg-12"><div><a href="record_video_camo.html"><img src="img/icon_photos/video.png" width="50px" /></a>Record</div></div>
     </div>
 
     <div class="row">
-        <div class="col-xs-3 col-sm-12 col-md-12 col-lg-12"><div><a href=""><img src="img/icon_photos/my_location.png" width="50px" /></a>Location</div></div>
+        <div class="col-xs-3 col-sm-12 col-md-12 col-lg-12"><div><a data-toggle="modal" data-target="#locationModal" onclick="$('#locationModal').modal('toggle');"><img src="img/icon_photos/my_location.png" width="50px" /></a>Location</div></div>
         <div class="col-xs-3 col-sm-12 col-md-12 col-lg-12"><div><a href="resources.html"><img src="img/icon_photos/resources.png" width="50px" /></a>Resources</div></div>
         <div class="col-xs-3 col-sm-12 col-md-12 col-lg-12"><div><a href="my_account.html"><img src="img/iOS+Settings+icon.png" width="50px" /></a>Account</div></div>
         <div class="col-xs-3 col-sm-12 col-md-12 col-lg-12"><div><a href="fake_call.html"><img src="img/icon_photos/fake-call-button.png" width="50px" /></a>Fake Call</div></div>
@@ -50,6 +50,43 @@
     </div>
 
 
+</div>
+
+<!--<div class="modal fade right" id="fullHeightModalRight" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">-->
+    <!--<div class="modal-dialog modal-full-height modal-right" role="document">-->
+
+<!-- Location modal -->
+<div class="modal fade" id="locationModal" role="dialog">
+    <div class="modal-dialog modal-sm">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-body">
+                <p>My Location: Red Line Outbound, Car #465</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!-- Notification of alert modal -->
+<div class="modal fade" id="alertModal" role="dialog">
+    <div class="modal-dialog modal-sm">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-body">
+                <p>Your alert has been sent!</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
 </div>
 
 
@@ -81,7 +118,6 @@
     </div>
 </nav>
 
-
 <!-- Bootstrap core JavaScript
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
@@ -93,6 +129,13 @@
 
 <!-- Determine Device Info -->
 <script src="js/scripts.js"></script>
+
+<script>
+
+
+
+</script>
+
 
 </body>
 </html>

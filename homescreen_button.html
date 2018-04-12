@@ -37,7 +37,7 @@
     </div>
 
     <div class="row big_buttons">
-        <div class="col-xs-4 col-sm-12 col-md-12 col-lg-12"><div><a href=""><img src="img/icon_photos/alertneighborscircle.png" width="75px" /><a></div></div>
+        <div class="col-xs-4 col-sm-12 col-md-12 col-lg-12"><div><a data-toggle="modal" data-target="#alertModal" onclick="$('#alertModal').modal('toggle');"><img src="img/icon_photos/alertneighborscircle.png" width="75px" /><a></div></div>
         <div class="col-xs-4 col-sm-12 col-md-12 col-lg-12"><div><a href="call_transit_police.html"><img src="img/icon_photos/calltransitpolicecircle.png" width="75px" /><a></div></div>
         <div class="col-xs-4 col-sm-12 col-md-12 col-lg-12"><div><a href="sound_alarm.html"><img src="img/icon_photos/sendalarmcircle.png" width="75px" /><a></div></div>
     </div>
@@ -45,6 +45,24 @@
 
 
 
+</div>
+
+
+<!-- Notification of alert modal -->
+<div class="modal fade" id="alertModal" role="dialog">
+    <div class="modal-dialog modal-sm">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-body">
+                <p>Your alert has been sent!</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
 </div>
 
 
