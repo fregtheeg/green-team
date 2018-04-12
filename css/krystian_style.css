@@ -43,3 +43,8 @@
 .homescreen_camo_style {
     color: white!important;
 }
+
+.camo_footer_style {
+    background-color: rgba(0,0,0,0.3)!important;
+    border: none!important;
+}
