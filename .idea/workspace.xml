@@ -76,16 +76,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="acknowledgements" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/acknowledgements">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="84" lean-forward="false" selection-start-line="0" selection-start-column="84" selection-end-line="0" selection-end-column="84" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -139,14 +129,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="homescreen_camo.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="homescreen_camo.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/homescreen_camo.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+            <state relative-caret-position="198">
+              <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
               <folding>
                 <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="grid.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/grid.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1436">
+              <caret line="270" column="1" lean-forward="false" selection-start-line="270" selection-start-column="1" selection-end-line="270" selection-end-column="1" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -203,7 +203,6 @@
         <option value="$PROJECT_DIR$/video_sent.html" />
         <option value="$PROJECT_DIR$/css/bootstrap.css" />
         <option value="$PROJECT_DIR$/css/bootstrap-ms-extension.css" />
-        <option value="$PROJECT_DIR$/css/grid.css" />
         <option value="$PROJECT_DIR$/js/bootstrap.min.js" />
         <option value="$PROJECT_DIR$/js/device-detect.js" />
         <option value="$PROJECT_DIR$/js/scripts.js" />
@@ -220,6 +219,7 @@
         <option value="$PROJECT_DIR$/resources.html" />
         <option value="$PROJECT_DIR$/fake_call.html" />
         <option value="$PROJECT_DIR$/call_transit_police.html" />
+        <option value="$PROJECT_DIR$/css/grid.css" />
       </list>
     </option>
   </component>
@@ -318,12 +318,12 @@
       <updated>1522768834831</updated>
       <workItem from="1522768836371" duration="4334000" />
       <workItem from="1522887486612" duration="26945000" />
-      <workItem from="1523473006927" duration="2407000" />
+      <workItem from="1523473006927" duration="2587000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33686000" />
+    <option name="totallyTimeSpent" value="33866000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="937" y="37" width="2182" height="1998" extended-state="0" />
@@ -542,6 +542,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7326">
           <caret line="222" column="27" lean-forward="false" selection-start-line="222" selection-start-column="27" selection-end-line="222" selection-end-column="27" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -652,13 +653,6 @@
           <folding>
             <element signature="n#!!doc" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/grid.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="164" column="10" lean-forward="false" selection-start-line="164" selection-start-column="4" selection-end-line="164" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -815,11 +809,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/homescreen_camo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        <state relative-caret-position="198">
+          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/grid.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1436">
+          <caret line="270" column="1" lean-forward="false" selection-start-line="270" selection-start-column="1" selection-end-line="270" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
