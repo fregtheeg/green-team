@@ -13,3 +13,25 @@
 .fakecall {
 	background-color: black!important;
 }
+
+
+.bulletlist {
+	font-size: 20px;
+}
+
+#video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.overlay {
+	position: fixed;
+    left: 25%;
+	top: 80%;
+    min-width: 300px;
+    min-height: 50px;
+}
+

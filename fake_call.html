@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,21 +7,26 @@
     <link rel="stylesheet" href="css/style.css" type="text/css"/>
 	<link rel="stylesheet" href="css/bootstrap.css" type="text/css"/>
 </head>
-<body class="container fakecall">
+<body class="container fakecall" onload="playAudio()">
 
-		<div class = "text-center" style = "margin-top: 30px">
-			<span style="font-size: 20px; color: white">Dad</span>
-		</div>
+    <audio loop id="callSound">
+        <source src="audio/ringtone.mp3" type="audio/mpeg">
+    </audio>
 
-		<div class ="row text-center" style = "margin-top: 400px"">
-			<div class = "col-xs-6">
-				<a href="index.html"><img src ="images/declinecall.png" style="width:55px;height:70px"></img></a>
-			</div>
-			<div class = "col-xs-6">
-				<img src ="images/acceptcall.png" style="width:55px;height:70px"></img>
-			</div>
-		</div>
-	
+    <div class = "text-center" style = "margin-top: 30px">
+    	<span style="font-size: 20px; color: white">Dad</span>
+    </div>
+
+    <div class ="row text-center" style = "margin-top: 400px"">
+    	<div class = "col-xs-6">
+    		<a href="index.html"><img src ="images/declinecall.png" style="width:55px;height:70px" onclick="pauseAudio()"></img></a>
+    	</div>
+    	<div class = "col-xs-6">
+    		<img src ="images/acceptcall.png" style="width:55px;height:70px" onclick="pauseAudio()"></img>
+    	</div>
+    </div>
+
+    <script src="js/call.js"></script>
 
 </body>
 </html>

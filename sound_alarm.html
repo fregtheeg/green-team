@@ -26,21 +26,26 @@
 
 </head>
 
-<body class = "container alarmpage">
+<body class = "container alarmpage" onload="playAudio()">
 
-		<div class = "text-center" style = "margin-top: 100px">
-			<img src = "images\alarm.png" style="width:200px;height:200px"></img>
+	<audio loop id="alarmSound">
+		<source src="audio/alarm.mp3" type="audio/mpeg">
+	</audio>
+
+	<div class = "text-center" style = "margin-top: 100px">
+		<img src = "images\alarm.png" style="width:200px;height:200px"></img>
+	</div>
+
+	<div class = "text-center">
+		<button onclick="playAudio()" type="button" class="btn btn-primary btn-sm">Sound Alarm</button>
+		<button onclick="pauseAudio()" type="button" class="btn btn-primary btn-sm">Stop Alarm</button>
+	</div>
+
+	<footer class = "text-muted">
+		<div class ="container">
+			<a href="index.html"> <span class = "float-right"><input type="button" class="btn btn-primary btn-sm" id="backbutton" value="Back"></span> <a>
 		</div>
-
-		<div class = "text-center">
-			<span style="font-size: 20px; color: white">Sound Alarm!!!</span>
-		</div>
-
-		<footer class = "text-muted">
-			<div class ="container">
-				<a href="index.html"> <span class = "float-right"><input type="button" class="btn btn-primary btn-sm" id="backbutton" value="Back"></span> <a>
-			</div>
-		</footer>
+	</footer>
 
 
 		<!-- Bootstrap core JavaScript
@@ -54,6 +59,8 @@
 
 		<!-- Determine Device Info -->
 		<script src="js/scripts.js"></script>
+
+		<script src="js/alarm.js"></script>
 
 
 </body>
