@@ -278,12 +278,12 @@
       <workItem from="1522768836371" duration="4334000" />
       <workItem from="1522887486612" duration="26945000" />
       <workItem from="1523473006927" duration="11359000" />
-      <workItem from="1523546947665" duration="4738000" />
+      <workItem from="1523546947665" duration="4843000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47376000" />
+    <option name="totallyTimeSpent" value="47481000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="667" y="52" width="2182" height="1998" extended-state="0" />
@@ -391,6 +391,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="233277">
           <caret line="7069" column="5" lean-forward="false" selection-start-line="7069" selection-start-column="5" selection-end-line="7069" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -448,6 +449,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-957">
           <caret line="7039" column="1" lean-forward="false" selection-start-line="7039" selection-start-column="1" selection-end-line="7039" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -486,6 +488,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="429">
           <caret line="13" column="37" lean-forward="false" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+          <folding />
         </state>
       </provider>
     </entry>
