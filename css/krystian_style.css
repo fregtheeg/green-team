@@ -68,17 +68,12 @@ div.item {
     height: 60px;
 }
 
-div.item2 {
-    vertical-align: top;
-    display: inline-block;
-    text-align: center;
-    width: 380px;
-}
-
 .circle{
     width: 110px;
     height: 110px;
 }
+
+
 
 .resource-btn {
     background-color: #191970; /* midnight blue */
