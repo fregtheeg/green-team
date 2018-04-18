@@ -80,6 +80,50 @@ div.item2 {
     height: 110px;
 }
 
+.resource-btn {
+    background-color: #191970; /* midnight blue */
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    border-radius: 15px;
+    cursor: pointer;
+    width: 110px;
+    height: 50px;
+}
+
+.notifications-btn {
+    background-color: #006400; /* dark green */
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    border-radius: 15px;
+    cursor: pointer;
+    width: 110px;
+    height: 50px;
+}
+
+.acct-btn {
+    background-color: #D2691E; /* orange */
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    border-radius: 15px;
+    width: 110px;
+    height: 50px;
+}
+
 .row-bottom-margin { margin-bottom:-15px; }
 
 
