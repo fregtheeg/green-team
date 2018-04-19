@@ -55,3 +55,44 @@
     width: 380px;
     height: 100px;
 }
+
+.alarm-btn{
+    background-color: white; 
+    border: 5px solid #696969; /* gray */
+    color: black;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    width: 150px;
+    height: 70px;
+}
+
+.sendvideo-btn{
+    background-color: black; 
+    border: 10px solid #696969; /* gray */
+    color: white;
+    padding: 2px 6px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 2px 1px;
+    cursor: pointer;
+    border-radius: 20px;
+    width: 150px;
+    height: 70px;
+}
+
+div.item {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 400px;
+}
