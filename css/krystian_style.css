@@ -45,6 +45,11 @@ body {
 
 .homescreen_camo_style {
     color: white!important;
+    text-align: center;
+}
+
+.homescreen_button_style{
+    color: white!important;
 }
 
 .homescreen_button_style{
