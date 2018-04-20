@@ -34,6 +34,11 @@ body {
     border-radius: 5px;
 }
 
+.info-back {
+    color: white!important;
+    background-color: #696969;
+}
+
 .big_button_footer_style {
     background-color: black;
     border: none!important;
@@ -111,3 +116,29 @@ div.item {
 
 
 
+/* Back Button */
+.back-button{
+    font-size: 14px;
+    background-color: transparent;
+    border: none;
+    font-weight: bolder;
+    padding: 16px 0px;
+    color: #191970;
+}
+
+.location-nav {
+    font-size: 14px;
+    padding: 16px 0px;
+    font-weight: bolder;
+    color: #191970;
+}
+
+.back-navigation {
+    color: #191970;
+}
+
+/* Image back buttons, like on call transit police */
+button.image-back {
+    background-color: transparent!important;
+    border: none!important;
+}
