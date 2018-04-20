@@ -70,7 +70,7 @@ div.item {
     vertical-align: top;
     display: inline-block;
     text-align: center;
-    width: 400px;
+    width: 100%;
 }
 
 .icon {
@@ -109,7 +109,7 @@ div.item {
 
 .acct-btn {
     background-color: #228B22; /* green */
- 
+
 }
 
 .row-bottom-margin { margin-bottom:-15px; }
