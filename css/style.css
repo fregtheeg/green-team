@@ -57,7 +57,7 @@
 }
 
 .alarm-btn{
-    background-color: white; 
+    background-color: white;
     border: 5px solid #696969; /* gray */
     color: black;
     padding: 5px 10px;
@@ -74,7 +74,7 @@
 }
 
 .sendvideo-btn{
-    background-color: black; 
+    background-color: black;
     border: 10px solid #696969; /* gray */
     color: white;
     padding: 2px 6px;
@@ -95,4 +95,18 @@ div.item {
     display: inline-block;
     text-align: center;
     width: 400px;
+}
+
+.notifs {
+	width: 100%;
+	height: auto;
+	object-fit: contain;
+}
+
+.top {
+	margin-top: 60%;
+}
+
+.bottom {
+	margin-top: 16px;
 }
