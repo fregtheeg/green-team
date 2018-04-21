@@ -9,26 +9,27 @@
     <link href="css/krystian_style.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-<body class="container fakecall" onclick='playAudio()'>
+<body class="container fakecall">
+    <div onclick='playAudio()'>
+        <audio autoplay loop id="callSound">
+            <source src="audio/ringtone.mp3" type="audio/mpeg">
+        </audio>
 
-    <audio loop id="callSound">
-        <source src="audio/ringtone.mp3" type="audio/mpeg">
-    </audio>
+        <div class = "text-center" style = "margin-top: 30px">
+        	<span style="font-size: 25px; color: white">Dad</span>
+        </div>
 
-    <div class = "text-center" style = "margin-top: 30px">
-    	<span style="font-size: 25px; color: white">Dad</span>
+        <div class ="row text-center" style = "margin-top: 280px">
+            <div class = "col-xs-6">
+                <img src ="images/remindme.png" style="width:65px;height:45px"></img>
+            </div>
+            <div class = "col-xs-6">
+                <img src ="images/message.png" style="width:65px;height:45px"></img>
+            </div>
+        </div>
     </div>
 
-    <div class ="row text-center" style = "margin-top: 280px"">
-        <div class = "col-xs-6">
-            <img src ="images/remindme.png" style="width:65px;height:45px"></img>
-        </div>
-        <div class = "col-xs-6">
-            <img src ="images/message.png" style="width:65px;height:45px"></img>
-        </div>
-    </div>
-
-    <div class ="row text-center" style = "margin-top: 20px"">
+    <div class ="row text-center" style = "margin-top: 20px">
     	<div class = "col-xs-6">
             <button class="image-back" onclick="window.history.back();"><img src ="images/declinecall.png" style="width:70px;height:85px"></a></button>
     	</div>
