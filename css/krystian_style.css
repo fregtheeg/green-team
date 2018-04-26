@@ -13,6 +13,7 @@
 /*}*/
 body {
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 11px;
 }
 
 .settings {
@@ -137,8 +138,60 @@ div.item {
     color: #191970;
 }
 
+.back-button-alternate{
+    font-size: 14px;
+    background-color: transparent;
+    border: none;
+    font-weight: bolder;
+    padding: 16px 0px;
+    color: white;
+}
+
+.back-navigation-alternate {
+    color: white;
+}
+
+.location-nav-alternate {
+    font-size: 14px;
+    padding: 16px 0px;
+    font-weight: bolder;
+    color: white;
+}
+
+
 /* Image back buttons, like on call transit police */
 button.image-back {
     background-color: transparent!important;
     border: none!important;
+}
+
+
+/* App Text Styling */
+
+.app-name {
+    letter-spacing: -0.5px;
+}
+
+.app-name-shrink {
+    letter-spacing: -0.9px;
+}
+
+.app-spacing {
+    margin-top: 5px;
+}
+
+
+/* Modal Text Styling */
+.modal-text {
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+/* Jumbotron Styling */
+
+.jumbotron {
+    color: #1A2040;
+    background-color: #808ED2;
 }

@@ -59,6 +59,20 @@
     height: 100%;
 }
 
+.btn3 {
+    background-color: #191970; /* midnight blue */
+    border: 5px solid #0000CD; /* medium blue */
+    color: white;
+    padding: 10px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
 .button-center {
     margin: auto;
     display: block;

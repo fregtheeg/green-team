@@ -7,3 +7,8 @@ function playAudio() {
 function pauseAudio() {
     x.pause();
 }
+
+function alarmFunction() {
+    $('#alarmModal').modal('toggle');
+    playAudio();
+}
