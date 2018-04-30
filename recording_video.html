@@ -39,76 +39,42 @@
 <!DOCTYPE html>
 <html>
 <head>
+
+
+    <meta charset="UTF-8">
+    <title>RideSafe</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style>
-        * {
-            box-sizing: border-box;
-        }
+    <link rel="stylesheet" href="css/style.css" type="text/css"/>
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css"/>
+    <link href="css/krystian_style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-        body {
-            margin: 0;
-            font-family: Arial;
-            font-size: 17px;
-        }
-
-        #myVideo {
-            position: fixed;
-            right: 0;
-            bottom: 0;
-            min-width: 100%;
-            min-height: 100%;
-        }
-
-        .content {
-            position: fixed;
-            bottom: 0;
-            background: rgba(0, 0, 0, 0.5);
-            color: #f1f1f1;
-            width: 100%;
-            padding: 20px;
-        }
-
-        #myBtn {
-            width: 200px;
-            font-size: 18px;
-            padding: 10px;
-            border: none;
-            background: #000;
-            color: #fff;
-            cursor: pointer;
-        }
-
-        #myBtn:hover {
-            background: #ddd;
-            color: black;
-        }
-    </style>
 </head>
 <body>
 
-<video autoplay muted loop id="myVideo">
+
+<video autoplay muted loop id="backgroundVideo">
     <source src="video/train.mp4" type="video/mp4">
     Your browser does not support HTML5 video.
 </video>
 
-<div class="content">
-    <button id="myBtn" onclick="myFunction()">Send Video</button>
+<div class="content-top">
+    <div class="container back-navigation">
+        <div class="row">
+            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                <div class="pull-left"><button class="back-button-alternate btn-primary" onclick="window.history.back();"><span><i class="fa fa-chevron-left"></i> Back </span></button></div>
+            </div>
+            <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+                <div class="location-nav-alternate"><i class="fa fa-map-marker" aria-hidden="true"></i> Red Line Outbound, Car #465</div>
+            </div>
+        </div>
+    </div>
 </div>
 
-<script>
-    var video = document.getElementById("myVideo");
-    var btn = document.getElementById("myBtn");
+<div class="content">
+        <button id="sendVideoBtn" onclick="window.location.href='video_sent.html'">Send Video</button>
+</div>
 
-    function myFunction() {
-        if (video.paused) {
-            video.play();
-            btn.innerHTML = "Pause";
-        } else {
-            video.pause();
-            btn.innerHTML = "Play";
-        }
-    }
-</script>
 
 </body>
 </html>
